@@ -20,9 +20,9 @@ public class Client {
 		System.out.println("Point : "+this.point);
 	}
 	
-	public void buy(Tv tv) {
-		this.money = this.money-tv.getPrice();
-		this.point = this.point+tv.getPoint();
+	public void buy(Product product) {
+		this.money = this.money-product.getPrice();
+		this.point = this.point+product.getPoint();
 		System.out.println("잔액 : "+this.money);
 		System.out.println("Point : "+this.point);
 	}
