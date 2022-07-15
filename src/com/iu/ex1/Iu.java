@@ -4,7 +4,8 @@ public class Iu {
 	
 	private String name;
 	private int age;
-	
+	//fix-study
+	private String test;
 	
 	//이 클래스 안에서만 공유 가능
 	private static Iu iu=null;
