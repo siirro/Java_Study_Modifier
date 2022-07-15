@@ -3,6 +3,7 @@ package com.iu.main;
 import com.iu.terran.Marine;
 import com.iu.terran.Scv;
 import com.iu.unit.Unit;
+import com.iu.zerg.Hydra;
 
 public class Main {
 
@@ -21,9 +22,15 @@ public class Main {
 		System.out.println(unit.getColor());
 		System.out.println(unit.getName());
 		//System.out.println(unit.getWeapon()); weapon은 unit은 몰라서 안됨
-	
+		
+		Hydra hydra = new Hydra();
+		
 		m1 = (Marine)unit;
 		System.out.println(m1.getWeapon());
+		
+		m1.attack();
+		hydra.attack();
+		
 	}
 	
 	

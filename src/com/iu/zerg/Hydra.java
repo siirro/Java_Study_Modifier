@@ -1,8 +1,9 @@
 package com.iu.zerg;
 
 import com.iu.unit.AirUnit;
+import com.iu.unit.Attacker;
 
-public class Hydra extends AirUnit {
+public class Hydra extends AirUnit implements Attacker{
 	
 	//hp, color, name
 	//움직이고, 공격 침뱉기
@@ -14,8 +15,6 @@ public class Hydra extends AirUnit {
 	public void attack() {
 		System.out.println("퉤");
 	}
-	
-
 	
 
 }

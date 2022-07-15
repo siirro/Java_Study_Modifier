@@ -1,8 +1,8 @@
 package com.iu.terran;
 
-import com.iu.unit.AirUnit;
+import com.iu.unit.Unit;
 
-public class Cruiser extends AirUnit{
+public class Cruiser extends Unit{
 
 	public void move() {
 		
