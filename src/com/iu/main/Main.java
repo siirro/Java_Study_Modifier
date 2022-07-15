@@ -1,15 +1,27 @@
 package com.iu.main;
 
-import com.iu.terran.Marine;
+import com.iu.himart.Client;
+import com.iu.himart.Computer;
+import com.iu.himart.Phone;
+import com.iu.himart.Tv;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Marine m1 = new Marine();
-		m1.setHp(30);
-		m1.move();
-		m1.info();
 		
+		Computer computer = new Computer();
+		Tv tv = new Tv();
+		Phone phone = new Phone();
+		
+		System.out.println(tv.getSize());
+		
+		computer.info();
+		tv.info();
+		phone.info();
+		
+		Client client = new Client();
+		
+		client.buy(computer.getPrice(),computer.getPoint());
 	}
 	
 	
