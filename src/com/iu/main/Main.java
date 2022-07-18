@@ -5,6 +5,11 @@ import com.iu.util.CollectionStack;
 public class Main {
 
 	public static void main(String[] args) {
+		String name = "test";
+		char ch = name.charAt(3);
+		System.out.println(ch);
+		
+		
 		CollectionStack cs = new CollectionStack();
 		
 		
@@ -35,6 +40,7 @@ public class Main {
 		//collectionStack.add -> {4,1,2,3}
 		//collectionStack.remove -> {2,3}
 	
+		
 		
 		
 		
